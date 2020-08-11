@@ -34,7 +34,7 @@ int init_image(void *buf, size_t len, int imageType, ImageLoadOptions *o, VipsIm
 }
 
 VipsAngle autorot_get_angle(VipsImage *img) {
-	return vips_autorot_get_angle(img);
+	return autorot_get_angle(img);
 }
 
 unsigned long has_profile_embed(VipsImage *in) {
