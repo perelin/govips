@@ -1,4 +1,4 @@
-module github.com/davidbyttow/govips
+module github.com/perelin/govips
 
 go 1.13
 
